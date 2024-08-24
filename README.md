@@ -4,7 +4,7 @@ Submitted by: Tarina Afroz Muna
 
 **Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: 12 hours 
+Time spent: 7 hours 
 
 ## Required Features
 
@@ -19,11 +19,13 @@ The following **optional** features are implemented:
 
 * [ ] List anything else that you can get done to improve the app functionality!
 
+Implemented a menu bar to improve navigation and user experience, making it easier for users to access different sections of the webpage.
+
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='Sea Monster Crownfounding .gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
@@ -36,9 +38,11 @@ GIF created with ...
 
 Describe any challenges encountered while building the app.
 
+Creating the secret key involved solving some problems and answering questions to generate it independently. While the problem-solving aspect wasn't overly difficult, understanding the nuances and specific requirements for creating the key was somewhat challenging.
+
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2024] Tarina Afroz Muna
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
