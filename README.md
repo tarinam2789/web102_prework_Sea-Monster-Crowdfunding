@@ -1,8 +1,8 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - Sea Monster Crowdfunding
 
 Submitted by: Tarina Afroz Muna 
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Sea Monster Crowdfunding** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
 Time spent: 7 hours 
 
@@ -11,29 +11,27 @@ Time spent: 7 hours
 The following **required** functionality is completed:
 
 * [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [ ] The Stats section includes information about the total contributions and dollars raised, as well as the top two most funded games.
+* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding.
 * [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+
+## Optional Features
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
-
-Implemented a menu bar to improve navigation and user experience, making it easier for users to access different sections of the webpage.
+* [ ] Implemented a menu bar to improve navigation and user experience, making it easier for users to access different sections of the webpage.
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented features:
+Here's a walkthrough of the implemented features:
 
 <img src='assets/SeaMonsterCrownfounding.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with my MacBook's screen recording feature, then converted to a GIF using Keynote.
 
-
-
 ## Notes
 
-Describe any challenges encountered while building the app.
+Describe any challenges encountered while building the app:
 
 Creating the secret key involved solving some problems and answering questions to generate it independently. While the problem-solving aspect wasn't overly difficult, understanding the nuances and specific requirements for creating the key was somewhat challenging.
 
