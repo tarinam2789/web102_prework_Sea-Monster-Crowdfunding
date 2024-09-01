@@ -1,3 +1,18 @@
 {
-    "type": "module"
+    "name": "web102_prework",
+    "version": "1.0.0",
+    "description": "A project for web development prework.",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "live-server",
+        "build": "echo 'No build step defined'",
+        "test": "echo 'No test specified' && exit 0"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "live-server": "^1.2.2"
+    }
 }

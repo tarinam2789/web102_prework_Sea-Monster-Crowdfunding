@@ -1,64 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
+    <title>Sea Monster Crowdfunding</title>
+</head>
+<body>
 
-  <body>
-    <!-- header row with logo -->
+    
+    <!-- Menu Bar -->
+    <div class="menu-bar">
+        <div class="menu-title">Sea Monster Crowdfunding</div>
+        <a href="#description-section">About</a>
+        <a href="#stats-section">Stats</a>
+        <a href="#games-section">Games</a>
+    </div>
+
+    <!-- Header row with logo -->
     <div class="header">
-        <img id="tentacles" src="assets/tentacles.png">
+        <img id="tentacles" src="assets/tentacles.png" alt="Sea Monster Logo">
         <h1 class="header-text">Sea Monster Crowdfunding</h1>
     </div>
 
-    <!-- background info about company -->
-    <h2>Welcome to Sea Monster!</h2>
-    <div id="description-container">
-        <p>The purpose of our company is to fund independent games. We've been in operation for 12 years.</p>
-    </div>
+    <!-- Background info about company -->
+    
+    <section id="description-section">
+        <h2>Welcome to Sea Monster!</h2>
+        <div>
+            <p>The purpose of our company is to fund independent games. We've been in operation for 12 years.</p>
+        </div>
+        <div id="description-container"></div>
+    </section>
 
-    <!-- top games & other interesting stats -->
-    <h2>Stats</h2>
-    <div class="stats-container">
-        <div class="stats-card">
-            <h3>Individual Contributions</h3>
-            <p id="num-contributions">
-            </p>
+    <!-- Top games & other interesting stats -->
+    <section id="stats-section">
+        <h2>Stats</h2>
+        <div class="stats-container">
+            <div class="stats-card">
+                <h3>Individual Contributions</h3>
+                <p id="num-contributions"></p>
+            </div>
+            <div class="stats-card">
+                <h3>Total Raised</h3>
+                <p id="total-raised"></p>
+            </div>
+            <div class="stats-card">
+                <h3>Total Number of Games</h3>
+                <p id="num-games"></p>
+            </div>
         </div>
-        <div class="stats-card">
-            <h3>Total Raised</h3>
-            <p id="total-raised">
-            </p>
-        </div>
-        <div class="stats-card">
-            <h3>Total Number of Games</h3>
-            <p id="num-games">
-            </p>
-        </div>
-    </div>
-    <div class="stats-container" id="top-games">
-        <div class="stats-card" id="first-game">
-            <h3>🥇 Top Funded Game</h3>
-        </div>
-        <div class="stats-card" id="second-game">
-            <h3>🥈 Runner Up</h3>
-        </div>
-    </div>
 
-    <!-- list of games funded by Sea Monster -->
-    <h2>Our Games</h2>
-    <p>Check out each of our games below!</p>
-    <div id="button-container">
-        <button id="unfunded-btn">Show Unfunded Only</button>
-        <button id="funded-btn">Show Funded Only</button>
-        <button id="all-btn">Show All Games</button>
-    </div>
-    <div id="games-container">
+        <div class="stats-container" id="top-games">
+            <div class="stats-card" id="first-game">
+                <h3>🥇 Top Funded Game</h3>
+            </div>
+            <div class="stats-card" id="second-game">
+                <h3>🥈 Runner Up</h3>
+            </div>
+        </div>
+    </section>
 
-    </div>
+    <!-- List of games funded by Sea Monster -->
+    <section id="games-section">
+        <h2>Our Games</h2>
+        <p>Check out each of our games below!</p>
+        <div id="button-container">
+            <button id="unfunded-btn">Show Unfunded Only</button>
+            <button id="funded-btn">Show Funded Only</button>
+            <button id="all-btn">Show All Games</button>
+        </div>
+        <div id="games-container">
+            <div class="game-card">
+                <h3>Heroes Of Mythic Americas</h3>
+                <p>An exciting 5e RPG supplement that heroically represents pre-Columbian American cultures and mythologies</p>
+                <p>Backers: 9</p>
+            </div>
+            <div class="game-card">
+                <h3>Cube Monster</h3>
+                <p>Be the first champion to reach the top of Mount Kubia in a solo or competitive engine building strategy game</p>
+                <p>Backers: 321</p>
+            </div>
+        </div>
+    </section>
 
+    <!-- Link to JavaScript file -->
     <script type="module" src="index.js"></script>
-  </body>
+</body>
 </html>
