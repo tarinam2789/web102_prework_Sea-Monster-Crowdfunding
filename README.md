@@ -27,7 +27,7 @@ Implemented a menu bar to improve navigation and user experience, making it easi
 
 Here's a walkthrough of the implemented features:
 
-<img src='assets/SeaMonsterCrownfounding.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='assets/SeaMonsterCrowdfunding.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with my MacBook's screen recording feature, then converted to a GIF using Keynote.
 
