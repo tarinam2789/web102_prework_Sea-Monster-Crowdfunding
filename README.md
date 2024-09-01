@@ -4,7 +4,7 @@ Submitted by: Tarina Afroz Muna
 
 **Sea Monster Crowdfunding** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: 15 hours 
+Time spent: 18 hours 
 
 ## Required Features
 
